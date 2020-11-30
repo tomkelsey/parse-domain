@@ -36,7 +36,7 @@ node_modules
 .node_repl_history
 
 # We don't check in the compiled lists. They are created upon npm publish and npm install.
-build/tries
+# build/tries
 
 # Don't include the build target directory.
-lib
+# lib
