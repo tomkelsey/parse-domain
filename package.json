@@ -10,7 +10,6 @@
     "build:lib:clean": "rimraf lib",
     "build:lib:babel": "babel src --out-dir lib",
     "build:tries": "node scripts/build-tries.js",
-    "postinstall": "run-s build:tries",
     "prepublish": "run-s build",
     "release": "standard-version",
     "pretest": "run-s build:lib:clean pretest:link",
